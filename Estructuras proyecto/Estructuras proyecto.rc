@@ -1,0 +1,141 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Español (México) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESM)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MEXICAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IS_Ventana DIALOGEX 0, 0, 379, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Registrase"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Registrarse",REG_BT_Reg,124,120,57,16
+    EDITTEXT        REG_EC_Usuario,115,61,160,14,ES_AUTOHSCROLL
+    EDITTEXT        REG_EC_Passw,116,95,162,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Usuario",REG_Text_Usuario,68,63,25,8
+    LTEXT           "Contraseña",REG_Text_Passw,64,98,38,8
+    PUSHBUTTON      "Cancelar",REG_BT_Cancelar,203,121,53,15
+    LTEXT           "Registrarse",REG_Text_Regis,169,34,38,8
+END
+
+REG_Ventana DIALOGEX 0, 0, 379, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Inicio"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Registrarse",IS_BT_Reg,322,179,50,14
+    EDITTEXT        IS_EC_Usuario,115,61,160,14,ES_AUTOHSCROLL
+    EDITTEXT        IS_EC_Passw,118,95,160,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Usuario",IS_Text_Usuario,64,63,25,8
+    LTEXT           "Contraseña",IS_Text_Passw,64,98,38,8
+    PUSHBUTTON      "Salir",IS_BT_Salir,7,179,50,14
+    PUSHBUTTON      "Iniciar Sesion",IS_BT_InSe,160,125,62,15
+    LTEXT           "Iniciar Sesion",IDC_STATIC,169,34,43,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IS_Ventana, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    REG_Ventana, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IS_Ventana AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+REG_Ventana AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Español (México) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
